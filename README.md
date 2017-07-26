@@ -1,4 +1,4 @@
-# nodejs-schedule-server-doker
+# nodejs-schedule-server-docker
 A node js server which gets data from one internal API and sends it to a public API.
 
 ### Instalation
@@ -19,3 +19,8 @@ sudo docker run --name friendlyplug \
 ```
 
 P.S.: Please replace the `<Internal API>` and the `<External API>` with your API URLs. 
+
+
+### Where to use it?
+
+I used this service to send the data(a home plug) from a Raspberry Pi to an Amazon Lambda function.
